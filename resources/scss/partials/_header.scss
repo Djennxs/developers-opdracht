@@ -1,0 +1,30 @@
+header {
+    position: sticky;
+    top: 0;
+    box-shadow: 0 0 40px rgba(#000, 0.1);
+    background: $grey;
+    z-index: 1;
+
+    nav {
+        ul {
+            padding: 0;
+            margin: 0;
+
+            li {
+                display: inline-block;
+                list-style: none;
+                padding: 0 15px;
+
+                a {
+                    line-height: 60px;
+                    text-decoration: none;
+                    color: $black;
+                }
+
+                &.logout {
+                    float: right;
+                }
+            }
+        }
+    }
+}

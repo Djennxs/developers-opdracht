@@ -1,0 +1,24 @@
+// Assets
+@import "assets/fonts";
+@import "assets/colors";
+@import "assets/buttons";
+@import "assets/form";
+@import "assets/messages";
+@import "assets/table";
+
+// Global
+@import "global";
+
+// Partials
+@import "partials/header";
+
+// Pages
+@import "pages/homepage";
+@import "pages/login";
+@import "pages/register";
+@import "pages/reset";
+
+@import "pages/profile";
+@import "pages/users";
+@import "pages/change";
+@import "pages/create";

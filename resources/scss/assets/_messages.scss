@@ -1,0 +1,32 @@
+.messages {
+    border-radius: 5px;
+    border: 2px solid darken($grey, 5%);
+    background: $grey;
+    color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+
+    .message {
+        margin-bottom: 5px;
+
+        a {
+            color: #fff;
+            text-decoration: underline;
+            opacity: 1;
+        }
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    &.danger {
+        border-color: darken(#d9534f, 5%);
+        background: #d9534f;
+    }
+
+    &.success {
+        border-color: darken(#5cb85c, 5%);
+        background: #5cb85c;
+    }
+}

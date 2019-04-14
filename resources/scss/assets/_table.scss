@@ -1,0 +1,33 @@
+table {
+    border: none;
+    width: 100%;
+
+    thead {
+        background: $grey;
+
+        tr {
+            th {
+                padding: 5px 10px;
+                border: none;
+            }
+        }
+    }
+    tbody {
+        tr {
+            transition: all 300ms ease;
+
+            td {
+                padding: 5px 10px;
+                border: none;
+            }
+
+            &:nth-child(odd) {
+                background: lighten($grey, 7%);
+            }
+
+            &:hover {
+                background: lighten($grey, 4%);
+            }
+        }
+    }
+}
