@@ -29,7 +29,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     if (count($results) > 0) {
         $error = true;
-        $messages['exists'] = 'There is already an account with this e-mailaddress!<br /> Have you <a href="/password-reset.php">forgotten</a> your password or would you like to <a href="/login.php">sign in</a>?';
+        $messages['exists'] = 'There is already an account with this e-mailaddress!<br /> Have you <a href="/reset.php">forgotten</a> your password or would you like to <a href="/login.php">sign in</a>?';
     }
 
     if ($error) {

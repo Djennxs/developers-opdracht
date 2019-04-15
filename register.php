@@ -63,7 +63,7 @@
                     </form>
 
                     <div class="links">
-                        <a href="/password-reset.php">I forgot my password!</a><span>|</span><a href="/login.php">I already have an account!</a>
+                        <a href="/reset.php">I forgot my password!</a><span>|</span><a href="/login.php">I already have an account!</a>
                     </div>
                 </div>
             </div>

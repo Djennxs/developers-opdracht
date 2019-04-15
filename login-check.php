@@ -28,7 +28,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     } else {
         if ($results[0]['password'] != md5($_POST['password'])) {
             $error = true;
-            $messages['password'] = 'The password does not match the one we saved!<br />Did you <a href="/password-reset.php">forget</a> your password?';
+            $messages['password'] = 'The password does not match the one we saved!<br />Did you <a href="/reset.php">forget</a> your password?';
         }
     }
 
